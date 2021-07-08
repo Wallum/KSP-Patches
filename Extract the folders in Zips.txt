@@ -1,0 +1,7 @@
+Patches contain:
+- CryoTanksMethalox patch to add CH4/LOX tank setups
+- KerbalKonstruct patches for KSCExpanded
+  * Version 1 is for RSS 18.0.0
+  * Version 2 is for RSS 18.1.3
+- RealSolarSystem contains the patch for CommNet Constellation to remove ground stations
+- RealSolarSystem also contains a patch to rotate the moon to the correct angle

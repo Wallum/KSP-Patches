@@ -1,0 +1,516 @@
+
+/﻿/﻿VOSTOK
+@PART[﻿Andromeda_Crew_1]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        //amount = 2.56
+        //maxAmount = 2.56
+        @amount = 1.28
+        @maxAmount = 1.28
+    }
+    @RESOURCE[Water]
+    {
+
+        //amount = 1.692
+        //maxAmount = 1.692
+        @amount = 0.846
+        @maxAmount = 0.846
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        //amount = 777.267
+        //maxAmount = 777.267
+		//0.3333x
+        @amount = 259.089
+        @maxAmount = 259.089
+    }
+}
+
+//SOYUZ
+@PART[Tantares_Crew_1]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 4.937
+        @maxAmount = 4.937
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 3.263
+        @maxAmount = 3.263
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 333.114
+        @maxAmount = 333.114
+    }
+}
+
+@PART[Tantares_Crew_2,Tantares_Habitation_1,Tantares_Habitation_2]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 3.291
+        @maxAmount = 3.291
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 2.175
+        @maxAmount = 2.175
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 222.076
+        @maxAmount = 222.076
+    }
+}
+
+@PART[Tantares_Orbital_1,Tantares_Orbital_2]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 3.657
+        @maxAmount = 3.657
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 2.417
+        @maxAmount = 2.417
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 246.751
+        @maxAmount = 246.751
+    }
+}
+
+//PROGRESS
+@PART[Hamal_Habitation_1]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 146.3
+        @maxAmount = 146.3
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 96.67
+        @maxAmount = 96.67
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 9870.04
+        @maxAmount = 9870.04
+    }
+}
+
+//LK
+@PART[Libra_Crew_1]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 1.097
+        @maxAmount = 1.097
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 0.725
+        @maxAmount = 0.725
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 111.038
+        @maxAmount = 111.038
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+//ALMAZ/SALYUT
+@PART[aquila_crew_s1_1_1,aquila_crew_s1_1_2]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 1.829
+        @maxAmount = 1.829
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 1.21
+        @maxAmount = 1.21
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 123.376
+        @maxAmount = 123.376
+    }
+}
+
+@PART[aquila_crew_s1_3_1,aquila_crew_s1_3_2]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 1.097
+        @maxAmount = 1.097
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 0.725
+        @maxAmount = 0.725
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 74.025
+        @maxAmount = 74.025
+    }
+}
+
+@PART[vega_crew_s1_1_1,vega_crew_s1_1_2,vega_crew_s1_2_1]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 2.926
+        @maxAmount = 2.926
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 1.934
+        @maxAmount = 1.934
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 197.401
+        @maxAmount = 197.401
+    }
+}
+
+@PART[vega_crew_s1p5_1_1]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 7.3
+        @maxAmount = 7.3
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 4.83
+        @maxAmount = 4.83
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 493
+        @maxAmount = 493
+    }
+}
+
+@PART[vega_crew_s2_1_1]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 9.14
+        @maxAmount = 9.14
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 6.04
+        @maxAmount = 6.04
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 616.633
+        @maxAmount = 616.633
+    }
+}
+
+@PART[aquila_crew_s1p5_3_1,aquila_crew_s1p5_3_2]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 1.83
+        @maxAmount = 1.83
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 1.21
+        @maxAmount = 1.21
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 123.37
+        @maxAmount = 123.37
+    }
+}
+
+//MIR
+@PART[Eridani_Crew_1]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 10.97
+        @maxAmount = 10.97
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 7.25
+        @maxAmount = 7.25
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 740.76
+        @maxAmount = 740.76
+    }
+}
+
+@PART[Eridani_Crew_2]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 12.8
+        @maxAmount = 12.8
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 8.467
+        @maxAmount = 8.467
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 864.887
+        @maxAmount = 864.887
+    }
+}
+
+@PART[Acamar_Lab_1]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 2.9
+        @maxAmount = 2.9
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 1.94
+        @maxAmount = 1.94
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 197.203
+        @maxAmount = 197.203
+    }
+}
+
+@PART[Acamar_Lab_2]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 0.73
+        @maxAmount = 0.73
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 0.484
+        @maxAmount = 0.484
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 74.051
+        @maxAmount = 74.051
+    }
+}
+
+//TKS/FGB
+@PART[Alnair_Crew_1]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 3.29
+        @maxAmount = 3.29
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 2.18
+        @maxAmount = 2.18
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 222.228
+        @maxAmount = 222.228
+    }
+}
+
+@PART[aquila_crew_s1p5_1_1,aquila_crew_s1p5_1_2]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 5.48
+        @maxAmount = 5.48
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 3.63
+        @maxAmount = 3.63
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 370.38
+        @maxAmount = 370.38
+    }
+}
+
+@PART[aquila_adapter_s2_s0p5_1,aquila_adapter_s2_s1p5_1,aquila_crew_s2_s0p5_1,aquila_crew_s2_s1p5_1,vega_adapter_s2_s1p5_1,vega_adapter_s2_s1_1]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 3.66
+        @maxAmount = 3.66
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 2.42
+        @maxAmount = 2.42
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 246.253
+        @maxAmount = 246.253
+    }
+}
+
+@PART[aquila_crew_s1p5_2_1,aquila_crew_s1p5_2_2]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 7.31
+        @maxAmount = 7.31
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 4.83
+        @maxAmount = 4.83
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 493.507
+        @maxAmount = 493.507
+    }
+}
+
+//POLYUS
+@PART[rotanev_crew_s2_1_1,rotanev_crew_s2_1_2]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 14.63
+        @maxAmount = 14.63
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 9.666
+        @maxAmount = 9.666
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 987.013
+        @maxAmount = 987.013
+    }
+}
+
+@PART[aquarius_crew_s1p5_1]:NEEDS[Tantares,CommunityResourcePack,ProfileDefault]:FINAL
+{
+    @RESOURCE[Food]
+    {
+
+        @amount = 4.94
+        @maxAmount = 4.94
+    }
+    @RESOURCE[Water]
+    {
+
+        @amount = 3.26
+        @maxAmount = 3.26
+    }
+    @RESOURCE[Oxygen]
+    {
+
+        @amount = 333.342
+        @maxAmount = 333.342
+    }
+}
