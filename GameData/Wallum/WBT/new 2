@@ -1,5 +1,0 @@
-@EXPERIMENT_DEFINITION:HAS[#id[WBISpaceAdaptionStudy]]:FINAL
-{
-	%requiredPart = scienceLab001
-	%requiredPart = sciencepart2
-}
