@@ -1,37 +1,3 @@
-@PART[Mk33AftTank,Mk33FwdTank,Mk33Cockpit]:AFTER[zzz_CryoTanks]
-{
-	!MODULE[ModuleB9PartSwitch]:HAS[#moduleID[fuelSwitch]] {}
-	!MODULE[ModuleCryoTank] {}
-	MODULE
-	{
-		name = ModuleCryoTank
-		CoolingAllowed = true
-		CoolingEnabled = true
-		BOILOFFCONFIG
-		{
-			FuelName = LqdHydrogen
-			// in % per hr
-			BoiloffRate = 0.01
-			CoolingCost = 0.05
-		}
-	}
-
-	!RESOURCE[LiquidFuel] {}
-	!RESOURCE[Oxidizer] {}
-	RESOURCE
-	{
-		name = LqdHydrogen
-		amount = 103800
-		maxAmount = 103800
-	}
-	RESOURCE
-	{
-		name = Oxidizer
-		amount = 6920
-		maxAmount = 6920
-	}
-}
-
 @PART[Mk33MidTank]:AFTER[zzz_CryoTanks]
 {
 	!MODULE[ModuleB9PartSwitch]:HAS[#moduleID[fuelSwitch]] {}

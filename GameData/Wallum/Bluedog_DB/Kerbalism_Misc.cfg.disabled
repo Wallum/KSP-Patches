@@ -1,5 +1,3 @@
-
-
 //Monoprop fuel cells replaced with kerbalism
 @PART[bluedog_Agena_EquipmentRack,bluedog_MiniLab_Adapter,bluedog_Agena_EngineShroud,bluedog_Biosat_Adapter]:NEEDS[ProfileDefault]:FINAL
 {
@@ -161,7 +159,7 @@
 }
 
 //ADD configurable crew expts
-@PART[bluedog_Skylab_OWS_Wet,bluedog_Saturn_S4B_Tankage_WWS,bluedog_Spacelab_ERM,bluedog_MOL_Lab_New,bluedog_MOL_1p5mStationSegment,bluedog_MiniLab_Lab]:NEEDS[FeatureScience]:FIRST
+@PART[bluedog_Skylab_WetWorkshop,bluedog_Skylab_OWS_Wet,bluedog_Saturn_S4B_Tankage_WWS,bluedog_Spacelab_ERM,bluedog_spacelab_europeanModule,bluedog_MOL_Lab_New,bluedog_MOL_1p5mStationSegment,bluedog_MiniLab_Lab,bluedog_Skylab_VFB_lightweightWetWorkshop]:NEEDS[FeatureScience]:FIRST
 {	
 	MODULE
 	{

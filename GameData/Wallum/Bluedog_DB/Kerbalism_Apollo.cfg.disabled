@@ -1,4 +1,5 @@
-@PART[bluedog_Apollo_Block2_ServiceModule]:NEEDS[ProfileDefault]:FINAL
+//@PART[bluedog_Apollo_Block2_ServiceModule]:NEEDS[ProfileDefault]:FINAL
+@PART[bluedog_Apollo_Block2_SM]:NEEDS[ProfileDefault]:FINAL
 {
 	!MODULE[ModuleResourceConverter]:HAS[#ConverterName[Fuel?Cell]] {}
 	
@@ -24,7 +25,25 @@
 	}
 }
 
-@PART[bluedog_LEM_Ascent_Cockpit]:NEEDS[ProfileDefault]:FINAL
+@PART[bluedog_Apollo_Block2_SM]:NEEDS[ProfileDefault]:FINAL
+{
+	RESOURCE
+	{
+		name = Oxygen
+		amount = 10000
+		maxAmount = 10000
+	}
+	
+	RESOURCE
+	{
+		name = Hydrogen
+		amount = 20000
+		maxAmount = 20000
+	}
+}
+
+//@PART[bluedog_LEM_Ascent_Cockpit]:NEEDS[ProfileDefault]:FINAL
+@PART[bluedog_LM_Ascent_Cockpit]:NEEDS[ProfileDefault]:FINAL
 {
 	!MODULE[ModuleResourceConverter]:HAS[#ConverterName[Fuel?Cell]] {}
 	
@@ -35,6 +54,7 @@
 	}
 }
 
+//@PART[bluedog_Apollo_Block3_MissionModule]:NEEDS[ProfileDefault]:FINAL
 @PART[bluedog_Apollo_Block3_MissionModule]:NEEDS[ProfileDefault]:FINAL
 {
 	%RESOURCE[ElectricCharge]
@@ -45,7 +65,8 @@
 }
 
 //60k is needed for the B3 mission types, as a 2 day travel time to station is common
-@PART[bluedog_Apollo_Block3_ServiceModule]:NEEDS[ProfileDefault]:FINAL
+//@PART[bluedog_Apollo_Block3_ServiceModule]:NEEDS[ProfileDefault]:FINAL
+@PART[bluedog_Apollo_Block3_SM]:NEEDS[ProfileDefault]:FINAL
 {
 	%RESOURCE[ElectricCharge]
 	{
@@ -54,7 +75,8 @@
 	}
 }
 
-@PART[bluedog_Saturn_VFB_MissionModule]:NEEDS[ProfileDefault]:FINAL
+//@PART[bluedog_Saturn_VFB_MissionModule]:NEEDS[ProfileDefault]:FINAL
+@PART[bluedog_Skylab_VFB_ESM]:NEEDS[ProfileDefault]:FINAL
 {
 	//3 kerbals for 400 days
 	@RESOURCE[Food]
@@ -86,7 +108,8 @@
 	}
 }
 
-@PART[bluedog_Skylab_Airlock]:NEEDS[ProfileDefault]:FINAL
+//@PART[bluedog_Skylab_Airlock]:NEEDS[ProfileDefault]:FINAL
+@PART[bluedog_Skylab_airlockModule,bluedog_Skylab_airlockModule_SAF]:NEEDS[ProfileDefault]:FINAL
 {
 	//3 kerbals for 240 days
 	//Skylab was occuiped for ~170 days with a Skylab 5 noted for 20
@@ -120,7 +143,8 @@
 	}
 }
 
-@PART[bluedog_Spacelab_Adapter]:NEEDS[ProfileDefault]:FINAL
+//@PART[bluedog_Spacelab_Adapter]:NEEDS[ProfileDefault]:FINAL
+@PART[bluedog_spacelab_forwardAdapter,bluedog_spacelab_forwardAdapter_SAF]:NEEDS[ProfileDefault]:FINAL
 {
 	//4 kerbals for 1 year, based from ETS missions
 	//less water and oxygen
@@ -153,7 +177,8 @@
 	}
 }
 
-@PART[bluedog_Spacelab_Adapter]:NEEDS[ProfileDefault]:FINAL
+//@PART[bluedog_Spacelab_Adapter]:NEEDS[ProfileDefault]:FINAL
+@PART[bluedog_spacelab_forwardAdapter,bluedog_spacelab_forwardAdapter_SAF]:NEEDS[ProfileDefault]:FINAL
 {
 	//ETS timing suggests it would have water/oxygen recylcing
 	@MODULE[Configure]:HAS[#title[Pod]]
@@ -229,7 +254,7 @@
 	}
 }
 
-@PART[bluedog_Skylab_OWS,bluedog_Skylab_OWS_Wet]:NEEDS[ProfileDefault]:FINAL
+@PART[bluedog_Skylab_WetWorkshop,bluedog_Skylab_VFB_lightweightWetWorkshop,bluedog_Skylab_Workshop]:NEEDS[ProfileDefault]:FINAL
 {
 	@tags ^= :$: sickbay shower napkin: 
 
@@ -257,7 +282,7 @@
 	} 
 }
 
-@PART[bluedog_Skylab_OWS,bluedog_Skylab_OWS_Wet]:NEEDS[FeatureComfort]:AFTER[KerbalismDefault]
+@PART[bluedog_Skylab_WetWorkshop,bluedog_Skylab_VFB_lightweightWetWorkshop,bluedog_Skylab_Workshop]:NEEDS[FeatureComfort]:AFTER[KerbalismDefault]
 {
 	@description ^= :$: Can be upgraded to contain a Treadmill with Vibration Isolation Stabilization System (TVIS). 
 	@tags ^= :$: exercise: 
@@ -292,8 +317,7 @@
 	}
 }
 
-
-@PART[bluedog_Skylab_OWS]:NEEDS[Bluedog_DB]:BEFORE[KerbalismDefault]
+@PART[bluedog_Skylab_WetWorkshop,bluedog_Skylab_VFB_lightweightWetWorkshop,bluedog_Skylab_Workshop]:NEEDS[FeatureScience]:BEFORE[KerbalismDefault]
 {
 	!MODULE[ModuleScienceLab] {}
 	!MODULE[ModuleScienceConverter] {}
