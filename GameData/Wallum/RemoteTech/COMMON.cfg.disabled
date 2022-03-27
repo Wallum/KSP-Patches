@@ -27,19 +27,19 @@
 	!MODULE[ModuleDataTransmitter]{},*
 }
 
-@PART[*]:HAS[@MODULE[ModuleCommand]:HAS[#minimumCrew[0]]]:NEEDS[RemoteTech,!SETIRebalance]:AFTER[zzz_RemoteTech]
-{
-    %MODULE[ModuleSPU] {}
-    
-    %MODULE[ModuleRTAntennaPassive]    
-	{
-        %TechRequired = unmannedTech
-        %OmniRange = 3000
+//@PART[*]:HAS[@MODULE[ModuleCommand]:HAS[#minimumCrew[0]]]:NEEDS[RemoteTech,!SETIRebalance]:AFTER[zzz_RemoteTech]
+//{
+//    %MODULE[ModuleSPU] {}
+//    
+//    %MODULE[ModuleRTAntennaPassive]    
+//	{
+//        %TechRequired = unmannedTech
+//        %OmniRange = 3000
         
-        %TRANSMITTER {
-            %PacketInterval = 0.3
-            %PacketSize = 2
-            %PacketResourceCost = 15.0
-        }
-    }
-}
+//        %TRANSMITTER {
+//            %PacketInterval = 0.3
+//            %PacketSize = 2
+//            %PacketResourceCost = 15.0
+//        }
+//    }
+//}
