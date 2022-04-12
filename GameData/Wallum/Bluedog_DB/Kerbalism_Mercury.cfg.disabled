@@ -1,6 +1,0 @@
-@PART[bluedog_Mercury_Capsule]:NEEDS[ProfileDefault]:FINAL
-{
-	!MODULE[Configure]:HAS[#title[Pod]] {}
-	!MODULE[ProcessController]:HAS[#resource[_WaterRecycler]] {}
-	!MODULE[ProcessController]:HAS[#resource[_WasteProcessor]] {}
-}
