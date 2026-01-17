@@ -1,0 +1,10 @@
+@PART[ksp_r_largeBatteryPack]
+{
+	MODULE
+	{
+		name = ModuleHabTechItem	
+		packedVolume = 125  //400 per rack
+		upgradeName = wallum_ht2_battery
+		description = <color=#00ffffff><b>battery</b></color>
+	}
+}
